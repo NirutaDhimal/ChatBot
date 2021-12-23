@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": ["jahfiuagdhbfidjahfasskdffadsfnwofbabkfcao", "afjbafb kfoafheef kafhoasskbdfjufefbajdfaifehebfbawfaf", "afnaifgbe fanjfheifan"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through adding your immunization records in our database and accesing them including COVID-19 results regionwise, posting and searching your queries in the forum and search for nearby health post or hospital", "Offering support for finding nearby hospitals or health post, accesing and adding immunization records, searching and posting in the forum"],
+         "context": [""]
+        },
+        {"tag": "health_facilities",
+         "patterns": ["health post near me", "hospitals near me ", "Give me a list of hospitals in my region", "List all health posts near me", "Which is the best hospital in my region", "Suggest some good health posts near me", "Suggest some hospitals in my region", "Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details", "find hospitals near me" ],
+         "responses": ["Feature not added, still in progress!!"],
+         "context": [""]
+        },
+        {"tag": "ImmunizationVaccination",
+         "patterns": ["How to enter immunization record?", "How can I enter immunization record for my child", "Help me enter immunization record", "What should I do to record immunization of my child?", "Instruct me to add immunization record", "immunization data entry", "I want to log immunization record", "Immunization data management","How to access immunization record?", "How can I access immunization record of my child?", "Immunization data access", "I want to access immunization records", "Help me access immunization records of my child","How to enter COVID-19 vaccination record?", "How can I enter COVID-19 vaccination record?", "Help me enter COVID-19 record", "What should I do to record vaccination of COVID-19?", "Instruct me to add COVID-19 vaccination record", "COVID-19 vaccination data entry", "I want to log COVID-19 vaccination record", "COVID-19 vaccination data management", "COVID-19 vaccination management", "Corona virus vaccination", "How can I record COVID-19 vaccination?","How to enter COVID-19 vaccination record?", "How can I enter COVID-19 vaccination record?", "Help me enter COVID-19 record", "What should I do to record vaccination of COVID-19?", "Instruct me to add COVID-19 vaccination record", "COVID-19 vaccination data entry", "I want to log COVID-19 vaccination record", "COVID-19 vaccination data management", "COVID-19 vaccination management", "Corona virus vaccination", "How can I record COVID-19 vaccination?","How to access COVID-19 vaccination record?", "How can I access vaccination record of COVID-19?", "How can I access vaccination record of corona virus?","COVID-19 vaccination record access","Corona virus vaccination data access", "I want to access vaccination record of COVID-19 ", "Help me access vaccination records of COVID-19", "I want to access vaccination record of corona virus", "help me access vaccination record of corona virus", "COVID-19 vaccination", "corona virus vaccination", "Immunization records"],
+         "responses": ["go to: http://10.10.10.232:3000/records"],
+         "context": [""]
+        },
+        {"tag": "get_COVID19_records",
+         "patterns": ["Find COVID-19 records"," find corona virus records","Help me find covid-19 records", "Help me find corona virus records for my region", "Find COVID_19 data", "COVID-19 data by region", "Search corona virus records by region", "Search COVID-19 records", "Find corona virus record in my region", "How many people are infected by corona virus in my region?", "Number of people infected by covid 19 in my region", "COVID 19 records", "Corona virus records", "get covid-19 records", "get corona virus records" ],
+         "responses": ["go to: http://10.10.10.232:3000/corona"],
+         "context": [""]
+        },
+        {"tag": "discussion_forum",
+         "patterns": ["Search discussion forum", "How to use dicussion forum", "Help me find discussion forum", "How to post in discussion forum?", "How to view discussion forum", "How to access discussion forum?", "What should I do to access discussion forum?", "How to find discussion forum?", "go to discussion forum", "Search in discussion forum", "discussion forum", "How to open discussion forum?", "How to visit discussion forum", "How to find solutions in discussion forum"],
+         "responses": ["go to: http://10.10.10.232:3000/posts"],
+         "context": [""]
+        },
+        {"tag": "SignUp",
+         "patterns": ["How can I signUp?", "Help me with signup", "Where can I signin?", "How can I signin?", "signup", "signin", "login", "how can I log in?",
+        "What can I do to login?", "How should I signup?", "How can I register?", "Where can I register my account?", "registration", "Help me register my account"],
+        "responses": ["go to: http://10.10.10.232:3000/login"],
+        "context": [""]
+        }
+   ]
+}
